@@ -1,5 +1,5 @@
 <?php
-	include_once('../autoload.php');
+	include_once('autoload.php');
 	$GF->request('pcloud','CLASSES');
 	
 	$mp3 = new GF_musicmp3_ru('your_pcloud_email@mailsac.com','your_secret_password');
