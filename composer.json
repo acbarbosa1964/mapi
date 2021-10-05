@@ -1,0 +1,15 @@
+{
+	"name": "acbarbosa1964/mapi",
+	"description": "MAPI Music API",
+	"keywords": ["music", "album", "artist"],
+	"license": "MIT",
+	"require": {
+		"php": "^5.6 || ^7.4.2 ",
+		"ext-curl": "*",
+		"ext-json": "*",
+		"acbarbosa1964/mapi": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^5.7|6.2|^7.4.2"
+	},
+}
