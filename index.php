@@ -5,6 +5,7 @@
 
 	include_once('autoload.php');
 	$GF->request('pcloud','CLASSES');
+	$GF->request('musicmp3_ru','CLASSES');
 	
 	$mp3 = new GF_musicmp3_ru('your_pcloud_email@mailsac.com','your_secret_password');
 	$data = $mp3->router();
